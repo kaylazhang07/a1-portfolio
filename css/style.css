@@ -8,3 +8,8 @@ butter yellow #fbedc0
 dark puprle #3b2635
 fuschia #9c2f5a
 */
+.box{
+    background-color: #fffdf8;
+    border: 2px solid #3b2635;
+    padding: 1.75rem;
+}
