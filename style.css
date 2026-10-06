@@ -1,0 +1,38 @@
+/* color pallete
+cream #fdf6ec
+paper #fffdf8
+light pink #f8d7df
+lavender #e3dcf5
+#mint #d4efe3
+butter yellow #fbedc0
+dark puprle #3b2635
+fuschia #9c2f5a
+*/
+body {
+    font-family: "DM Sans", "Helvetica Neue", "Arial", sans-senrif;
+    background-color: #fdf6ec;
+    color: #3b2635;
+    line-height: 1.7;
+}
+h1, 
+h2, 
+h3, 
+h4 {
+    font-family: "Fraunces", Georgia, "Times New Roman", serif;
+    font-weight: 400;
+    color: #3b2635;
+    letter-spacing: -0.01em;
+}
+
+a {
+    color: #9c2f5a;
+    text-decoration-thickness: 2px; 
+    text-underline-offset: 3px;
+}
+
+.box{
+    background-color: #fffdf8;
+    border: 2px solid #3b2635;
+    padding: 1.75rem;
+}
+
