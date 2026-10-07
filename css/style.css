@@ -64,7 +64,7 @@ a:focus{
 .card,
 .btn,
 .navbar-toggler,
-img{
+img {
     border-radius: 0;
 }
 
@@ -84,8 +84,31 @@ img{
     background-color: #3b2635; 
 }
 
-.feature{
+.feature {
     background-color: #fffdf8;
     border: 2px solid #3b2635;
     box-shadow: 10px 10px 0 #c9bdea;
+}
+
+.hero {
+    background-color: #f8d7df;
+    border-bottom: 2px solid #3b2635;
+    padding: 4.5rem 0;
+}
+
+.hero .eyebrow{
+    display: inline-block;
+    background-color: #fffdf8;
+    border: 2px solid #3b2635; 
+    padding: 0.15rem 0.75rem; 
+    font-weight: 600; 
+    font-size: 0.85 rem; 
+    letter-spacing: 0.06em; 
+    text-transform: uppercase; 
+    margin-bottom: 1rem;
+}
+
+.hero h1{
+    font-size: 1.2rem;
+    max-width: 38rem;
 }
