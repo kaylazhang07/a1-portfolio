@@ -55,3 +55,37 @@ a:focus{
     box-shadow: 6px 6px 0 #fbedc0;
 }
 
+.box h2 .bi,
+.box h3 .bi{
+    color: #9c2f5a;
+    margin-right: 0.4rem;
+}
+
+.card,
+.btn,
+.navbar-toggler,
+img{
+    border-radius: 0;
+}
+
+.skip-link{
+    position: absolute; 
+    left: 1 rem;
+    top: -4 rem;
+    z-index: 2000;
+    padding: 0.5 rem 1 rem; 
+    background-color:#3b2635; 
+    color: #ffffff; 
+}
+
+.skip-link:focus{
+    top: 1 rem; 
+    color: #ffffff;
+    background-color: #3b2635; 
+}
+
+.feature{
+    background-color: #fffdf8;
+    border: 2px solid #3b2635;
+    box-shadow: 10px 10px 0 #c9bdea;
+}
