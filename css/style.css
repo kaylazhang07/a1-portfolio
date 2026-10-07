@@ -42,3 +42,16 @@ a:focus{
     padding: 1.75rem;
 }
 
+
+.box-lavender{
+    box-shadow: 6px 6px 0 #e3dcf5;
+}
+
+.box-mint{
+    box-shadow: 6px 6px 0 #d4efe3;
+}
+
+.box-butter{
+    box-shadow: 6px 6px 0 #fbedc0;
+}
+
