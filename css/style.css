@@ -8,11 +8,6 @@ butter yellow #fbedc0
 dark puprle #3b2635
 fuschia #9c2f5a
 */
-.box{
-    background-color: #fffdf8;
-    border: 2px solid #3b2635;
-    padding: 1.75rem;
-}
 
 h1, 
 h2, 
@@ -42,6 +37,9 @@ a:focus{
     padding: 1.75rem;
 }
 
+.row > [class*="col"] > .box:only-child{
+    height: 100%;
+}
 
 .box-lavender{
     box-shadow: 6px 6px 0 #e3dcf5;
