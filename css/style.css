@@ -31,6 +31,12 @@ a:focus{
     background-color: #f8d7df;
 }
 
+code {
+    color: #3b2635;
+    background-color: #f8d7df;
+    padding: 0 0.25 rem;
+}
+
 .box{
     background-color: #fffdf8;
     border: 2px solid #3b2635;
@@ -151,4 +157,10 @@ img {
     background-color: #9c2f5a;
     border-color: #9c2f5a;
     color:#ffffff;
+}
+
+.page-header{
+    background-color: #e3dcf5;
+    border-bottom: 2px solid #3b2635;
+    padding: 3rem 0 2.5rem;
 }
