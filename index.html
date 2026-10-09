@@ -44,77 +44,79 @@ EMAIL: kaylaz2@uci.edu
   </header>
 
   <main id="main">
-    <section class="hero" aria-labelledby="hero-heading">
+    <section class="hero py-5" aria-labelledby="hero-heading">
       <div class="container">
-        <div class="row align-items-center g-4 gy-4"?>
+        <div class="row align-items-center g-4">
           <div class="col-md-7 order-2 order-md-1">
             <p class="eyebrow">CS &amp; BIM @ UC Irvine</p>
-            <h1 id="hero-heading">Hi, I'm Kayla. I'm a second year undegraduate student at UCI and enjoy working on ML/AI projects!" </h1>
-            <p class="lead">I'm a full stack developer for UCI's School of Biological Sciences, software developer at Blockchain @ UCI, and PR Chair at ICS Student Council. </p>
-            <a class="btn btn-pink me-3 mb-3" href="resume.html"><i class="bi bi-file-earmark-person" aria-hidden="true"></i>View resume</a>
-            <a class="btn btn-pastel mb-3" href="projects.html"><i class="bi bi-stars" aria-hidden="true"></i>See projects</a>
+            <h1 id="hero-heading" class="mb-3">Hi, I'm Kayla. I'm a second year undergraduate student at UCI and enjoy working on ML/AI projects! </h1>
+            <p class="lead mb-4">I'm a full stack developer for UCI's School of Biological Sciences, software developer at Blockchain @ UCI, and PR Chair at ICS Student Council. </p>
+            <div class="d-flex flex-wrap gap-3">
+              <a class="btn btn-pink" href="resume.html"><i class="bi bi-file-earmark-person" aria-hidden="true"></i>View resume</a>
+              <a class="btn btn-pastel" href="projects.html"><i class="bi bi-stars" aria-hidden="true"></i>See projects</a>
+            </div>
+          </div>  
+          <div class="col-md-5 order-1 order-md-2 text-center text-md-end">
+            <img src="images/profile.jpg" class="profile-img img-fluid" alt="Kayla Zhang Portrait">
           </div>
-        </div>
-        <div class="col-md-5 order-1 order-md-2 text-md-end">
-          <img src="images/profile.jpg" class="profile-img" width="400" alt="Kayla Zhang Portrait">
         </div>
       </div>
     </section>
 
-    <section class="section" aria-labelledby="now-heading">
+    <section class="section py-5" aria-labelledby="now-heading">
       <div class="container">
-        <h2 id="now-heading" class="section-title">What I'm currently doing</h2>
+        <h2 id="now-heading" class="section-title mb-4">What I'm currently doing</h2>
         <div class="row g-4">
           <div class="col-md-6">
-            <div class="box">
-              <h3 class="h5"><i class="bi bi-diagram-3" aria-hidden="true"></i>Research Software</h3>
+            <div class="box h-100">
+              <h3 class="h5"><i class="bi bi-diagram-3 me-2" aria-hidden="true"></i>Research Software</h3>
               <p class="mb-0">Building a Python pipeline that groups UCI biology and medical faculty by research areas using MeSH terms and clustering. Currently working on RAG pipeline for chatbot feature.</p>
             </div>
           </div>
           <div class="col-md-6">
-            <div class="box lavender">
-              <h3 class="h5"><i class="bi bi-window-stack" aria-hidden="true"> Frontend and Testing </i></h3>
+            <div class="box lavender h-100">
+              <h3 class="h5"><i class="bi bi-window-stack me-2" aria-hidden="true"> Frontend and Testing </i></h3>
               <p class="mb-0">Finished React and TypeScript feature for Agonus, a fantasy football simulation for AI traders, app at Blockchain @ UCI.</p>
             </div>
           </div>
           <div class="col-md-6">
-            <div class="box mint">
-              <h3 class="h5"><i class="bi bi-easel" aria-hidden="true"> Classroom Support </i></h3>
+            <div class="box mint h-100-">
+              <h3 class="h5"><i class="bi bi-easel me-2" aria-hidden="true"> Classroom Support </i></h3>
               <p class="mb-0">Helping technology in lecture halls run smoothly with UCI Office of Information Technology.</p>
             </div>
           </div>
           <div class="col-md-6">
-            <div class="box butter">
-              <h3 class="h5"><i class="bi bi-megaphone" aria-hidden="true"> ICSSC PR</i></h3>
-              <p class="mb-0">Managing ICS Student Council social media and spreading the word about events as chair of Public Relations</p>
+            <div class="box butter h-100">
+              <h3 class="h5"><i class="bi bi-megaphone me-2" aria-hidden="true"> ICSSC PR</i></h3>
+              <p class="mb-0">Managing ICS Student Council social media and spreading news about events as chair of Public Relations</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section pt-0" aria-lablledby="featured-heading">
+    <section class="section pt-0 pb-5" aria-lablledby="featured-heading">
       <div class="container">
-        <h2 id="featured-heading">Featured project</h2>
-        <article class="feature row g-0">
+        <h2 id="featured-heading" class="section title mb-4">Featured project</h2>
+        <article class="feature row g-0 align-items-center">
           <div class="col-md-5 feature-media">
-            <img src="images/candid.png" width="640" height="440" alt="Screenshot of Candid homepage">
+            <img src="images/candid.png" class="img-fliud w-100" width="640" height="440" alt="Screenshot of Candid homepage">
           </div>
-          <div class="col-md-8 feature-text">
+          <div class="col-md-7 feature-text p-4">
             <h3>Candid &mdash; Ballot measures in plain terms</h3>
             <p class="meta mb-2">IrvineHacks &middot; February 2026</p>
             <p> A voter and civic education app that shows the personalized financial impact of ballot measures</p>
-            <a class="btn btn-pastel mt-2" href="https://irvine-hacks-candid.vercel.app/">Visit Candid <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i><span class="visually-hidden"> (external site)</span></a>
+            <a class="btn btn-pastel mt-2" href="https://irvine-hacks-candid.vercel.app/">Visit Candid <i class="bi bi-box-arrow-up-right ms-2" aria-hidden="true"></i><span class="visually-hidden"> (external site)</span></a>
           </div>
         </article>
       </div>
     </section>
 
   </main>
-  <footer class="site-footer">
+  <footer class="site-footer py-4">
     <div class="container d-md-flex justify-content-between align-items-center">
       <p class="mb-2 mb-md-0">&copy; 2026 Kayla Zhang &middot; Built with HTML, CSS, &amp; Bootsrap</p>
-      <div class="social">
+      <div class="social d-flex gpa-3 fs-5">
         <a href="https://github.com/kaylazhang07" aria-label="Github"><i class="bi bi-github" aria-hidden="true"></i></a>
         <a href="https://linkedin.com/kayla-d-zhang" aria-label="Linkedin"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
         <a href="mailto:kaylazhang123@gmail.com" aria-label="Email Kayla"><i class="bi bi-envelope-fill" aria-hidden="true"></i></a>

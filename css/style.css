@@ -170,3 +170,11 @@ img {
     border-bottom: 2px solid #3b2635;
     padding: 3rem 0 2.5rem;
 }
+
+.profile-img{
+    width: 100%;
+    max-width: 340 px;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    object-position: 50% 70%;
+}
