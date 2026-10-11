@@ -9,7 +9,7 @@ EMAIL: kaylaz2@uci.edu
 <head>
   <meta charset="utf-8">
   <meta name="author" content="Kayla Zhang">
-  <meta name="description" content="description of your page">
+  <meta name="description" content="Resume of Kayla Zhang">
   <!-- css stylesheet-->
   <link href="css/style.css" rel="stylesheet"> </link>
    <!-- you would link to an external stylesheet here! -->
@@ -56,10 +56,43 @@ EMAIL: kaylaz2@uci.edu
             <div class="row g-4 gx-lg-5">
                 <div class="col-lg-8">
                     <h2 class="section-title"> Experience </h2>
-                <div class="job">
-                    <h3>Software Developer</h3>
-                    <p class="org mb-0"> UCI School of Biological Sciences &mdash; Research &amp; Development Unit</p>
-                </div>
+                
+                    <div class="job">
+                        <h3>Software Developer</h3>
+                        <p class="org mb-0"> UCI School of Biological Sciences &mdash; Research &amp; Development Unit</p>
+                        <ul>
+                            <li>Engineered adaptive MeSH tree rollup, climbing NCBI hierarchy to consolidate sparse terms into shared ancestors via co-occurrence-weighted polyhierarchy resolution; fed into TF-IDF, PCA, K-Means pipeline with supervised UMAP and multi-penalty scoring to auto-recommend cluster count; improved silhouette 27% across 219 faculty</li>
+                            <li>Built RAG faculty discovery system on ChromaDB with dual retrieval (semantic cosine + MeSH-tree scoring) fused via Reciprocal Rank Fusion; versioned manifest rejects stale embeddings at startup</li>
+                            <li>Built multithreaded Python service (8 concurrent workers, exponential backoff, checkpoint resumability) querying UMLS REST API to construct inverted synonym index of 77,000+ biomedical entries resolving to 7,500+ MeSH descriptors</li>
+                            <li>Implemented 3-tier JS search pipeline (exact &rarr; prefix &rarr; Fuse.js fuzzy) across 8,200+ MeSH terms for 219 faculty with live results</li>
+                        </ul>
+                    </div>
+
+                    <div class="job">
+                        <h3>Software Developer</h3>
+                        <p class="org mb-0"> Blockchain @ UCI &mdash; Agonus</p>
+                        <ul>
+                            <li>Developed responsive frontend components for Agonus, a Web3 platform where AI agents compete in live  crypto trading tournaments, using Next.js/React, TypeScript, Zustand, and Framer Motion</li>
+                            <li>Built real-time candlestick chart dashboards for AI trading agent performance using TradingView Lightweight Charts, writing custom OHLCV logic to process and display live trade data</li>
+                            <li>Designed PostgreSQL schema for agent planning system using SQLModel/SQLAlchemy, modeling status lifecycle with indexed columns and uniqueness constraints to prevent duplicate agent actions</li>
+                            <li>Wrote async integration tests for FastAPI routes using pytest and HTTPX with in-memory SQLite and dependency injection to isolate test environments from production</li>
+                        </ul>
+                    </div>
+
+                    <div class="job">
+                        <h3>Classroom Technology Support Student Staff</h3>
+                        <p class="org mb-0">UCI Office of Information Technology</p>
+                        <ul>
+                            <li>Provided AV and technical support across 25+ lecture halls and 130 SmartClassrooms, troubleshooting audio, projector, PC, and WiFi issues remotely and in-person for faculty and students</li>
+                        </ul>
+                    </div>
+
+                    <h2 class="section-title mt-5">Skills</h2>
+                    <div class="table-wrap table-responsive" tabindex="0" role="region" aria-label="Scrollable skills table">
+                        <table class="table skills-table align-middle">
+                            <caption>Technical skills by cateogry</caption>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
