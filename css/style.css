@@ -9,6 +9,13 @@ dark puprle #3b2635
 fuschia #9c2f5a
 */
 
+body{
+    font-family: "DM Sans", "Helvetica Neue", Arial, sans-serif;
+    background-color: #fdf6ec;
+    color: #3b2635;
+    line-height: 1.7;
+}
+
 h1, 
 h2, 
 h3, 
@@ -30,6 +37,51 @@ a:focus{
     color: #3b2635; 
     background-color: #f8d7df;
 }
+
+a:focus-visible,
+button:focus-visible,
+.table-wrap:focus-visible{
+    outline: 3px solid #9c2f5a;
+    outline-offset: 2px;
+    box-shadow: none;
+}
+
+
+.site-nav{
+    background-color: #fffdf8;
+    border-bottom: 2px solid #3b2635;
+}
+.site-nav .navbar-brand{
+    font-family: "Fraunces", Georgia, serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #3b2635;
+}
+
+.site-nav .navbar-brand:hover,
+.site-nav .navbar-brand:focus{
+    background-color: transparent;
+    color:#9c2f5a;
+}
+
+.site-nav .nav-link{
+    color: #3b2635;
+    padding: 0.4rem 0.9 rem;
+    margin: 0 0.1 rem;
+}
+
+.site-nav .nav-link:hover,
+.site-nav .nav-link:focus{
+    background-color: #f8d7df;
+    color:  #3b2635;
+}
+
+.site-nav .navbar-nav .nav-link.active{
+    background-color: #f2b8c6;
+    color: #3b2635;
+    font-weight: 700;
+}
+
 
 code {
     color: #3b2635;
@@ -65,9 +117,18 @@ code {
     margin-right: 0.4rem;
 }
 
+.box ul{
+    padding-left: 1.1 rem;
+}
+
+.box ul li{
+    margin-bottom: 0.35 rem;
+}
 .card,
 .btn,
 .navbar-toggler,
+.table,
+.badge,
 img {
     border-radius: 0;
 }
@@ -178,3 +239,8 @@ img {
     object-fit: cover;
     object-position: 50% 70%;
 }
+
+.section{
+    padding: 3.5rem 0;
+}
+
