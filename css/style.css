@@ -310,7 +310,44 @@ img {
     padding-left: 1.1rem;
 }
 
+.table-wrap{
+    border: 2px solid #3b2635;
+    background-color: #fffdf8;
+}
+skills-table{
+    margin-bottom: 0;
+}
 
+.skills-table th,
+.skills-table td{
+    background-color: #fffdf8;
+    color: #3b2635;
+    padding: 0.75rem 1rem;
+}
+
+.skills-table tbody tr:nth-child(even) th,
+.skills-table tbody tr:nth-child(even) td{
+    background-color: #e3dcf5;
+}
+
+.skills-table caption{
+    caption-side: otp;
+    color: #3b2635;
+    font-weight: 700;
+    padding: 0.75rem 1rem;
+    background-color: #e3dcf5;
+    border-bottom: 2px solid #3b2635;
+}
+
+.skills-table thead th{
+    background-color: #f2b8c6;
+    color: #3b2635;
+    border-bottom: 2px solid #3b2635;
+}
+
+.skills-table tbody th{
+    font-weight: 700;
+}
 
 @media(max-width: 767.98px){
     .hero{
