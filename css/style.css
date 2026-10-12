@@ -306,7 +306,7 @@ img {
     margin-bottom: 0.1rem;
 }
 
-.job.org{
+.job .org{
     color: #9c2f5a;
     font-weight: 700;
 }
