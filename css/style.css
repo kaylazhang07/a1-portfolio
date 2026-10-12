@@ -244,3 +244,54 @@ img {
     padding: 3.5rem 0;
 }
 
+.site-footer{
+    background-color: #3b2635;
+    color: #fdf6ec;
+    padding: 2rem 0;
+}
+
+.site-footer a{
+    color: #f8d7df;
+}
+
+.site-footer a:hover
+.site-footer a:focus{
+    color: #3b2635;
+    background-color: #f8d7df;
+}
+
+.site-footer .social a {
+    font-size: 1.4 rem;
+    margin-left: 0.6rem;
+    padding: 0.1rem 0.3rem;
+}
+
+@media(max-width: 767.98px){
+    .hero{
+        padding: 2.5rem 0;
+    }
+
+    .hero h1{
+        font-size: 2.3rem;
+    }
+
+    .profile-img {
+        max-width: 200px;
+        margin-bottom: 1.5rem;
+        box-shadow: 6px 6px 0 #3b2635;
+    }
+
+    .feature .feature-media{
+        border-right: none;
+        border-bottom: 2px solid #3b2635;
+    }
+
+    .site-footer .social a {
+        margin-left: 0;
+        margin-right: 0.6rem;
+    }
+
+    .section{
+        padding: 2.5rem 0;
+    }
+}
