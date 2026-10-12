@@ -158,15 +158,22 @@ img {
     border: 2px solid #3b2635;
     box-shadow: 10px 10px 0 #c9bdea;
 }
+.feature .feature-text{
+    padding: 2.5rem;
+}
 
 .feature .feature-media{
     display: flex;
     align-items: center;
     background-color: #d4efe3;
     border-right: 2px solid #3b2635;
+    padding: 1rem;
 }
 
-
+.feature .feature-media img{
+    width: 100%;
+    height:auto; 
+}
 .hero {
     background-color: #f8d7df;
     border-bottom: 2px solid #3b2635;
