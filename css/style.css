@@ -139,8 +139,8 @@ img {
 
 .skip-link{
     position: absolute; 
-    left: 1 rem;
-    top: -4 rem;
+    left: 1rem;
+    top: -4rem;
     z-index: 2000;
     padding: 0.5rem 1rem; 
     background-color:#3b2635; 
