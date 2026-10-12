@@ -66,8 +66,8 @@ button:focus-visible,
 
 .site-nav .nav-link{
     color: #3b2635;
-    padding: 0.4rem 0.9 rem;
-    margin: 0 0.1 rem;
+    padding: 0.4rem 0.9rem;
+    margin: 0 0.1rem;
 }
 
 .site-nav .nav-link:hover,
@@ -86,7 +86,7 @@ button:focus-visible,
 code {
     color: #3b2635;
     background-color: #f8d7df;
-    padding: 0 0.25 rem;
+    padding: 0 0.25rem;
 }
 
 .box{
@@ -122,11 +122,11 @@ code {
 }
 
 .box ul{
-    padding-left: 1.1 rem;
+    padding-left: 1.1rem;
 }
 
 .box ul li{
-    margin-bottom: 0.35 rem;
+    margin-bottom: 0.35rem;
 }
 .card,
 .btn,
@@ -142,13 +142,13 @@ img {
     left: 1 rem;
     top: -4 rem;
     z-index: 2000;
-    padding: 0.5 rem 1 rem; 
+    padding: 0.5rem 1rem; 
     background-color:#3b2635; 
     color: #ffffff; 
 }
 
 .skip-link:focus{
-    top: 1 rem; 
+    top: 1rem; 
     color: #ffffff;
     background-color: #3b2635; 
 }
@@ -186,7 +186,7 @@ img {
     border: 2px solid #3b2635; 
     padding: 0.15rem 0.75rem; 
     font-weight: 600; 
-    font-size: 0.85 rem; 
+    font-size: 0.85rem; 
     letter-spacing: 0.06em; 
     text-transform: uppercase; 
     margin-bottom: 1rem;
@@ -206,6 +206,9 @@ img {
     width: 100%;
     max-width: 280px;
     height: auto;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    object-position: 50% 70%;
     border: 2px solid #3b2635;
     box-shadow: 10px 10px 0 #3b2635;
     background-color: #fffdf8;
@@ -220,8 +223,8 @@ img {
     box-shadow: 4px 4px 0 #3b2635;
 }
 
-.btn-paste:hover,
-.btn-past:focus{
+.btn-pastel:hover,
+.btn-pastel:focus{
     background-color: #e3dcf5;
     border-color: #3b2635;
     color:#3b2635;
@@ -250,16 +253,8 @@ img {
     padding: 3rem 0 2.5rem;
 }
 
-.page-header-pink{
+.page-header.pink{
     background-color: #f8d7df;
-}
-
-.profile-img{
-    width: 100%;
-    max-width: 340 px;
-    aspect-ratio: 4 / 5;
-    object-fit: cover;
-    object-position: 50% 70%;
 }
 
 .section{
@@ -277,14 +272,14 @@ img {
     color: #f8d7df;
 }
 
-.site-footer a:hover
+.site-footer a:hover,
 .site-footer a:focus{
     color: #3b2635;
     background-color: #f8d7df;
 }
 
 .site-footer .social a {
-    font-size: 1.4 rem;
+    font-size: 1.4rem;
     margin-left: 0.6rem;
     padding: 0.1rem 0.3rem;
 }
@@ -311,7 +306,7 @@ img {
     margin-bottom: 0.1rem;
 }
 
-.job org{
+.job.org{
     color: #9c2f5a;
     font-weight: 700;
 }
@@ -325,7 +320,7 @@ img {
     border: 2px solid #3b2635;
     background-color: #fffdf8;
 }
-skills-table{
+.skills-table{
     margin-bottom: 0;
 }
 
@@ -342,7 +337,7 @@ skills-table{
 }
 
 .skills-table caption{
-    caption-side: otp;
+    caption-side: top;
     color: #3b2635;
     font-weight: 700;
     padding: 0.75rem 1rem;
