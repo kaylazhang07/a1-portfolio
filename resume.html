@@ -15,7 +15,7 @@ EMAIL: kaylaz2@uci.edu
     <!-- bootstrap icons-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.css" rel="stylesheet" integrity="sha384-Bk5cbLkZQ5raZ0+H2/+VbfYx3WpvxvQK4zqXZr7sYODuaX7bKXoSOnipQxkaS8sv" crossorigin="anonymous">
    
-    <title>Home | Kayla Zhang </title>
+    <title>Resume | Kayla Zhang </title>
   <!-- Google fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -90,28 +90,29 @@ EMAIL: kaylaz2@uci.edu
                     <h2 class="section-title mt-3">Skills</h2>
                     <div class="table-wrap table-responsive" tabindex="0" role="region" aria-label="Scrollable skills table">
                         <table class="table skills-table align-middle mb-0">
+                            <caption>Technical skills and where I used them</caption>
                             <thead>
                                 <tr>
-                                    <th scope="col">Category</th>
-                                    <th scope="col">Skills</th>
-                                    <th scope="col">Where I've used them</th>
+                                    <th scope="col" id="h-cat">Category</th>
+                                    <th scope="col" id="h-skills">Skills</th>
+                                    <th scope="col" id="h-used">Where I've used them</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <th scope="row">Languages</th>
-                                    <td>Python, C++, TypeScript, JavaScript, HTML, CSS, SQL</td>
-                                    <td>Research Explorer, Agonus, Candid, coursework</td>
+                                    <th scope="row" id="r-lang" headers="h-cat">Languages</th>
+                                    <td headers="r-lang h-skills">Python, C++, TypeScript, JavaScript, HTML, CSS, SQL</td>
+                                    <td headers="r-lang h-used">Research Explorer, Agonus, Candid, coursework</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">Frameworks &amp; libraries</th>
-                                    <td>React, Next.js, Framer Motion, scikit-learn, Plotly, Fuse.js</td>
-                                    <td>Research Explorer, Agonus, HerPath</td>
+                                    <th scope="row" id="r-fw" headers="h-cat">Frameworks &amp; libraries</th>
+                                    <td headers="r-fw h-skills">React, Next.js, Framer Motion, scikit-learn, Plotly, Fuse.js</td>
+                                    <td headers="r-fw h-used">Research Explorer, Agonus, HerPath</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">Data &amp; tools</th>
-                                    <td>PostgreSQL, Neon, Github Actions</td>
-                                    <td>Agonus, HerPath, coursework</td>
+                                    <th scope="row" id="r-data" headers="h-cat">Data &amp; tools</th>
+                                    <td headers="r-data h-skills">PostgreSQL, Neon, Github Actions</td>
+                                    <td scope="r-data h-used">Agonus, HerPath, coursework</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -122,7 +123,7 @@ EMAIL: kaylaz2@uci.edu
                         <h2 id="edu-heading">Education</h2>
                         <p class="mb-1"><strong>University of California, Irvine</strong></p>
                         <p class="mb-2">B.S. Computer Science &amp; B.S. Business Information Management</p>
-                        <p class="mb-1"><strong>Relevant coursework</strong></p>
+                        <h3 class="sidebar-lable">Relevant coursework</h3>
                         <ul>
                             <li>ICS 33: Intermediate Programming (Python)</li>
                             <li>ICS 45C: Programming in C/C++</li>
@@ -130,7 +131,7 @@ EMAIL: kaylaz2@uci.edu
                             <li>ICS 6B &amp; 6D: Discrete Mathematics</li>
                             <li>INF4MATX 43: Software Engineering</li>
                         </ul>
-                        <p class="mb-1"><strong>Current coursework</strong></p>
+                        <h3 class="sidebar-label">Current coursework</h3>
                         <ul>
                             <li>ICS 46: Data Structures Implementation &amp; Analysis</li>
                             <li>IN4MATX 133: User Interaction Software</li>
@@ -148,11 +149,11 @@ EMAIL: kaylaz2@uci.edu
 
 <footer class="site-footer py-4">
     <div class="container d-md-flex justify-content-between align-items-center">
-      <p class="mb-2 mb-md-0">&copy; 2026 Kayla Zhang &middot; Built with HTML, CSS, &amp; Bootsrap</p>
+      <p class="mb-2 mb-md-0">&copy; 2026 Kayla Zhang &middot; Built with HTML, CSS, &amp; Bootstrap</p>
       <div class="social d-flex gap-3 fs-5">
-        <a href="https://github.com/kaylazhang07" aria-label="Github"><i class="bi bi-github" aria-hidden="true"></i></a>
-        <a href="https://linkedin.com/kayla-d-zhang" aria-label="Linkedin"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
-        <a href="mailto:kaylazhang123@gmail.com" aria-label="Email Kayla"><i class="bi bi-envelope-fill" aria-hidden="true"></i></a>
+        <a href="https://github.com/kaylazhang07" aria-label="Github"><span class="bi bi-github" aria-hidden="true"></span></a>
+        <a href="https://linkedin.com/kayla-d-zhang" aria-label="Linkedin"><span class="bi bi-linkedin" aria-hidden="true"></span></a>
+        <a href="mailto:kaylazhang123@gmail.com" aria-label="Email Kayla"><span class="bi bi-envelope-fill" aria-hidden="true"></span></a>
       </div>
     </div>
   </footer>
