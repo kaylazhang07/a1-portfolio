@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Kayla Zhang
+EMAIL: kaylaz2@uci.edu
+-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Kayla Zhang">
+    <meta name="description" content="Kayla Zhang's projects (Hackathon, work, club, school)">
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.css" rel="stylesheet" integrity="sha384-Bk5cbLkZQ5raZ0+H2/+VbfYx3WpvxvQK4zqXZr7sYODuaX7bKXoSOnipQxkaS8sv" crossorigin="anonymous">
+   
+    <title>Projects | Kayla Zhang</title>
+  <!-- Google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;family=Fraunces:opsz,wght@9..144,600&amp;display=swap">
+  <link href="css/style.css" rel="stylesheet"> 
+
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main</a>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light site-nav" aria-label="Main navigation">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Kayla Zhang</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="projects.html">Projects</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page-header mint">
+        <div class="container">
+            <h1>Projects</h1>
+            <p class="lead mb-0">Hackathon, work, club, and course work.</p>
+        </div>
+    </section>
+
+  <section class="section" aria-labelledby="hack-heading">
+    <div class="container">
+        <h2 id="hack-heading" class="section-title">Hackathon</h2>
+        <article class="feature row g-0">
+            <div class="col-md-5 feature-media">
+                <img src="images/candid_card.png" width="640" height="440" alt="Candid ballot card example for Measure J with a simplified version and outcome explanation">
+
+            </div>
+            <div class="col-md-7 feature-text">
+                <h3>Candid &mdash; your ballot in simpler terms</h3>
+                <p class="meta mb-2">IrvineHacks &middot; February 2026</p>
+                <p>Ballot questions can be hard to understand because they are often long and wordy and don't explain the outcomes. Candid asks five questions about your life and then explains each ballot measure in plain, simple language, personalized to you.</p>
+                <ul>
+                    <li>Personal explanations based on income, housing, location, and family.</li>
+                    <li>Calculates household cost estimates</li>
+                    <li>Every claim made links to exact legislative clause with a confidence score</li>
+                    <li>Interactive 3D map of how policies affect your neighborhood</li>
+                    <li>See how your politicians approach state and federal budgets</li>
+                </ul>
+                <a class="btn btn-pastel mt-2 me-3" href="https://irvine-hacks-candid.vercel.app/">Visit Candid <span class="bi bi-box-arrow-up-right" aria-hidden="true"></span><span class="visually-hidden">(external site)</span></a>
+                <a class="btn btn-pastel mt-2" href="https://www.youtube.com/watch?v=BkP_iGvOhsA">Watch demo <span class="bi bi-play-circle" aria-hidden="true"></span><span class="visually-hidden">(video on external site)</span></a>
+            </div>
+        </article>
+        <div class="row mt-5">
+            <div class="col-lg-8">
+                <article class="box mint">
+                    <h3 class="h5"><span class="bi bi-bar-chart-line" aria-hidden="true"></span> HerPath</h3>
+                    <p class="meta">UC Irvine VenusHacks &middot; May 2026</p>
+                    <p> A full-stack web app that shows hidden gender pay gap data and ML-driven career projections for women in tech with a career coaching chatbot tailored to 15 user profile variables. </p>
+                    <ul>
+                        <li>FastAPI backend with response caching serving a React/Vite frontend</li>
+                        <li>GMM training pipeline with grid search across 72 hyperparameters, picking the best fit via BIC</li>
+                        <li>Gender pay gap scoring over the resulting clusters to power promotion probability predictions</li>
+                    </ul>
+                    <div><span class="tag">FastAPI</span><span class="tag">React</span><span class="tag">Vite</span><span class="tag">Grok-3-mini</span></div>
+                </article>
+            </div>
+        </div>
+    </div>
+  </section>
+  <section class="section pt-0" aria-labelledby="work-heading">
+    <div class="container">
+        <h2 id="work-heading" class="section-title">Research &amp; club work</h2>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <article class="box pink"> 
+                    <h3 class="h5"><span class="bi bi-diagram-3" aria-hidden="true"></span> Faculty Research Clustering</h3>
+                    <p class="meta">UC Irvine School of Biological Sciences</p>
+                    <p> Groups biology and medical faculty by research area from their publications for future proposals. Includes a UMLS synonym mapper and visual scatter plots using TF-IDF, PCA, K-Means with supervised UMAP</p>
+                    <div><span class="tag">Python</span><span class="tag">Plotly</span><span class="tag">Fuse.js</span></div>
+                </article>
+            </div>
+            <div class="col-md-6">
+                <article class="box lavender">
+                    <h3 class="h5"><span class="bi bi-graph-up-arrow" aria-hidden="true"></span> Agonus</h3>
+                    <p class="meta">Blockchain @ UCI</p>
+                    <p>Fantasy football for AI traders with animated UI and candlestick charts to track AI trading agents.</p>
+                    <div><span class="tag">Next.js</span><span class="tag">TypeScript</span><span class="tag">Lightweight Charts</span><span class="tag">PostgreSQL</span></div>
+                </article>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <section class="section pt-0" aria-labelledby="course-heading">
+    <div class="container">
+        <h2 id="course-heading" class="section-title">Course projects</h2>
+        <div class="row g-4">
+                <div class="col-md-6">
+                    <article class="box butter">
+                        <h3 class="h5"><span class="bi bi-terminal" aria-hidden="true"></span> Grin Interpreter</h3>
+                        <p class="meta">ICS 33</p>
+                        <p>An interpreter for a small BASIC-like language that parses programs, tracks variables and labels, and runs jumps.</p>
+                        <div><span class="tag">Python</span></div>
+                    </article>
+                </div>
+                <div class="col-md-6">
+                    <article class="box mint">
+                        <h3 class="h5"><span class="bi bi-grid-3x3-gap" aria-hidden="true"></span> Columns</h3>
+                        <p class="meta">ICS H32</p>
+                        <p>A falling-block matching game in a pastel theme</p>
+                        <div><span class="tag">Python</span><span class="tag">Tkinter</span></div>
+                    </article>
+                </div>
+                <div class="col-md-6">
+                    <article class="box pink">
+                        <h3 class="h5"><span class="bi bi-chat-quote" aria-hidden="true"></span> Grammar Sentence Generator</h3>
+                        <p class="meta">ICS 33</p>
+                        <p>Reads a txt grammar rule file and generates random sentences through recursion</p>
+                        <div><span class="tag">Python</span><span class="tag">Recursion</span></div>
+                    </article>
+                </div>
+                <div class="col-md-6">
+                    <article class="box lavender">
+                        <h3 class="h5"><span class="bi bi-braces" aria-hidden="true"></span> C++ Data Structures</h3>
+                        <p class="meta">ICS 45C</p>
+                        <p>A series of assignments building linked lists and containers with STL, smart pointers, and inheritance</p>
+                        <div><span class="tag">C++</span><span class="tag">STL</span><span class="tag">Templates</span></div>
+                    </article>
+                </div>
+        </div>
+    </div>
+  </section>
+</main>
+
+
+  <footer class="site-footer py-4">
+    <div class="container d-md-flex justify-content-between align-items-center">
+      <p class="mb-2 mb-md-0">&copy; 2026 Kayla Zhang &middot; Built with HTML, CSS, &amp; Bootstrap</p>
+      <div class="social d-flex gap-3 fs-5">
+        <a href="https://github.com/kaylazhang07" aria-label="Github"><span class="bi bi-github" aria-hidden="true"></span></a>
+        <a href="https://linkedin.com/in/kayla-d-zhang" aria-label="LinkedIn"><span class="bi bi-linkedin" aria-hidden="true"></span></a>
+        <a href="mailto:kaylazhang123@gmail.com" aria-label="Email Kayla"><span class="bi bi-envelope-fill" aria-hidden="true"></span></a>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
